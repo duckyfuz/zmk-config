@@ -28,7 +28,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
@@ -42,7 +42,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - $$mdi:keyboard-esc$$
+  - Fn
   - LGUI
   - NUMBER
   - {t: '$$mdi:keyboard-space$$', h: Fn}
@@ -189,10 +189,61 @@ layers:
   - $$mdi:progress-download$$
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - SCROLLLOCK
-  - PAUSE BREAK
+  - {t: PAUSE BREAK, type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {type: held alternate}
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+combos:
+- p: [1, 14]
+  k: '!'
+  l: [QWERTY]
+- p: [2, 15]
+  k: '@'
+  l: [QWERTY]
+- p: [3, 16]
+  k: '#'
+  l: [QWERTY]
+- p: [4, 17]
+  k: $
+  l: [QWERTY]
+- p: [5, 18]
+  k: '%'
+  l: [QWERTY]
+- p: [14, 29]
+  k: ^
+  l: [QWERTY]
+- p: [15, 30]
+  k: '&'
+  l: [QWERTY]
+- p: [16, 31]
+  k: '*'
+  l: [QWERTY]
+- p: [17, 32]
+  k: (
+  l: [QWERTY]
+- p: [18, 33]
+  k: )
+  l: [QWERTY]
+- p: [7, 22]
+  k: {t: '$$mdi:minus-circle-outline$$', type: none}
+- p: [8, 23]
+  k: {t: '-', s: _}
+- p: [9, 24]
+  k: {t: '=', s: +}
+- p: [10, 25]
+  k: {t: /, s: '?'}
+- p: [11, 26]
+  k: {t: '$$mdi:minus-circle-outline$$', type: none}
+- p: [22, 36]
+  k: {t: '$$mdi:minus-circle-outline$$', type: none}
+- p: [23, 37]
+  k: {t: '[', s: '{'}
+- p: [24, 38]
+  k: {t: ']', s: '}'}
+- p: [25, 39]
+  k: {t: \, s: '|'}
+- p: [26, 40]
+  k: {t: '''', s: '"'}
