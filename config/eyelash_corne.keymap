@@ -175,6 +175,37 @@
         tmp-left-fn-layer {
             bindings = <&mo 2>;
             key-positions = <0 13>;
+            layers = <0>;
+        };
+
+        fn-layer-bt-0 {
+            bindings = <&bt BT_SEL 0>;
+            key-positions = <1 14>;
+            layers = <2>;
+        };
+
+        fn-layer-bt-1 {
+            bindings = <&bt BT_SEL 1>;
+            key-positions = <2 15>;
+            layers = <2>;
+        };
+
+        fn-layer-bt-2 {
+            bindings = <&bt BT_SEL 2>;
+            key-positions = <3 16>;
+            layers = <2>;
+        };
+
+        fn-layer-bt-3 {
+            bindings = <&bt BT_SEL 3>;
+            key-positions = <4 17>;
+            layers = <2>;
+        };
+
+        fn-layer-bt-clr {
+            bindings = <&bt BT_CLR>;
+            key-positions = <5 18>;
+            layers = <2>;
         };
     };
 
