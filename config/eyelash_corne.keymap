@@ -6,7 +6,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
 
@@ -116,51 +115,61 @@
         rcom1 {
             bindings = <&none>;
             key-positions = <7 22>;
+            layers = <0>;
         };
 
         rcom2 {
             bindings = <&kp MINUS>;
             key-positions = <8 23>;
+            layers = <0>;
         };
 
         rcom3 {
             bindings = <&kp EQUAL>;
             key-positions = <9 24>;
+            layers = <0>;
         };
 
         rcom4 {
             bindings = <&kp SLASH>;
             key-positions = <10 25>;
+            layers = <0>;
         };
 
         rcom5 {
             bindings = <&none>;
             key-positions = <11 26>;
+            layers = <0>;
         };
 
         rcom6 {
             bindings = <&none>;
             key-positions = <22 36>;
+            layers = <0>;
         };
 
         rcom7 {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <23 37>;
+            layers = <0>;
         };
 
         rcom8 {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <24 38>;
+            layers = <0>;
         };
 
         rcom9 {
             bindings = <&kp BACKSLASH>;
             key-positions = <25 39>;
+            layers = <0>;
         };
 
         rcom0 {
             bindings = <&kp SQT>;
             key-positions = <26 40>;
+            layers = <0>;
         };
     };
 
@@ -172,8 +181,8 @@
             bindings = <
 &kp TAB    &kp Q  &kp W  &kp E     &kp R  &kp T                               &kp UP                &kp Y        &kp U  &kp I      &kp O    &kp P     &kp BSPC
 &td0       &kp A  &kp S  &kp D     &kp F  &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp J  &kp K      &kp L    &kp SEMI  &kp ENTER
-&kp LCTRL  &kp Z  &kp X  &kp C     &kp V  &kp B        &kp SPACE              &kp DOWN              &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &mo 3
-                         &kp LGUI  &mo 1  &lt 3 SPACE                                               &lt 3 ENTER  &mo 2  &kp RALT
+&kp LCTRL  &kp Z  &kp X  &kp C     &kp V  &kp B        &kp SPACE              &kp DOWN              &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &mo 2
+                         &kp LGUI  &mo 1  &lt 2 SPACE                                               &lt 2 ENTER  &mo 0  &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -186,18 +195,6 @@
 &trans  &bt BT_CLR_ALL   &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT         &kp DOWN         &kp UP           &kp RIGHT        &kp HOME  &kp PG_UP
 &trans  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &trans        &trans        &rgb_ug RGB_EFF  &kp C_MUTE                    &mmv MOVE_DOWN                   &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp END   &kp PG_DN
                                          &trans        &trans        &trans                                                                          &kp INS          &kp DEL          &trans
-            >;
-
-            sensor-bindings = <&scroll_encoder>;
-        };
-
-        raise_layer {
-            display-name = "SYMBOL";
-            bindings = <
-&trans  &kp EXCL      &kp AT        &kp HASH   &kp DLLR   &kp PRCNT                            &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
-&trans  &bt BT_CLR    &mkp LCLK     &mkp MCLK  &mkp RCLK  &mkp MB4             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
-&trans  &out OUT_USB  &out OUT_BLE  &none      &none      &mkp MB5   &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
-                                    &trans     &trans     &kp SPACE                                                             &kp RET    &trans     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
