@@ -81,7 +81,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB OFF
   - RGB ON
-  - BT CLR ALL
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB EFF
   - $$mdi:volume-off$$
@@ -90,11 +90,11 @@ layers:
   - RGB SPI
   - RGB BRI
   - RGB BRD
-  - END
+  - {t: '$$mdi:transfer$$', type: trans}
   - PG DN
-  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '3', s: '$$mdi:bluetooth-connect$$', type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: INS, type: held alternate}
   - {t: '$$mdi:backspace-reverse-outline$$', type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
