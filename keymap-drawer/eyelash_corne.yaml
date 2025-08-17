@@ -210,3 +210,19 @@ combos:
   l: [QWERTY]
 - p: [0, 13]
   k: Fn
+  l: [QWERTY]
+- p: [1, 14]
+  k: {h: '1', s: '$$mdi:bluetooth-connect$$'}
+  l: [Fn]
+- p: [2, 15]
+  k: {h: '2', s: '$$mdi:bluetooth-connect$$'}
+  l: [Fn]
+- p: [3, 16]
+  k: {h: '3', s: '$$mdi:bluetooth-connect$$'}
+  l: [Fn]
+- p: [4, 17]
+  k: {h: '4', s: '$$mdi:bluetooth-connect$$'}
+  l: [Fn]
+- p: [5, 18]
+  k: $$mdi:bluetooth-off$$
+  l: [Fn]
