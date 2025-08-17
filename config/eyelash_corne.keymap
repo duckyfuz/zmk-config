@@ -171,6 +171,11 @@
             key-positions = <26 40>;
             layers = <0>;
         };
+
+        tmp-left-fn-layer {
+            bindings = <&mo 2>;
+            key-positions = <0 13>;
+        };
     };
 
     keymap {
@@ -203,10 +208,10 @@
         FN_LAYER {
             display-name = "Fn";
             bindings = <
-&studio_unlock  &kp F1      &kp F2     &kp F3       &kp F4     &kp F5                                  &mmv MOVE_UP                     &kp F6       &kp F7     &kp F8       &kp F9      &kp F10          &kp F11
-&trans          &trans      &mkp LCLK  &mkp MCLK    &mkp RCLK  &mkp MB4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &mkp LCLK  &mkp MCLK    &mkp RCLK   &kp PRINTSCREEN  &kp F12
-&trans          &sys_reset  &trans     &bootloader  &trans     &mkp MB5  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans       &trans     &bootloader  &sys_reset  &kp SCROLLLOCK   &kp PAUSE_BREAK
-                                       &trans       &trans     &trans                                                                   &trans       &trans     &trans
+&studio_unlock  &kp F1   &kp F2   &kp F3   &kp F4   &kp F5                                 &mmv MOVE_UP                     &trans  &trans  &trans       &trans      &trans  &trans
+&sys_reset      &kp F6   &kp F7   &kp F8   &kp F9   &kp F10                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans  &trans  &trans       &trans      &trans  &trans
+&bootloader     &kp F11  &kp F12  &kp F13  &kp F14  &kp F15  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans  &trans  &bootloader  &sys_reset  &trans  &trans
+                                  &trans   &trans   &trans                                                                  &trans  &trans  &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
