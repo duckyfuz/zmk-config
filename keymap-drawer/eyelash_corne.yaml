@@ -29,7 +29,7 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
   - Z
   - X
   - C
@@ -47,7 +47,7 @@ layers:
   - LGUI
   - {t: '$$mdi:keyboard-space$$', h: NUMBER}
   - {t: '$$mdi:keyboard-space$$', h: NUMBER}
-  - $$mdi:apple-keyboard-shift$$
+  - RGUI
   - {t: '$$mdi:backspace$$', type: backspace}
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -275,3 +275,6 @@ combos:
 - p: [5, 18]
   k: $$mdi:bluetooth-off$$
   l: [Fn]
+- p: [13, 28]
+  k: $$mdi:apple-keyboard-control$$
+  l: [QWERTY]
