@@ -99,7 +99,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   Fn:
-  - {t: '&studio_unlock', type: held alternate}
+  - '&studio_unlock'
   - F1
   - F2
   - F3
@@ -112,7 +112,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:backup-restore$$', type: held alternate}
+  - {t: '$$mdi:backup-restore$$', type: bootloader}
   - F6
   - F7
   - F8
@@ -132,7 +132,7 @@ layers:
   - F12
   - F13
   - F14
-  - F15
+  - {type: held alternate}
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -142,7 +142,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -257,7 +257,7 @@ combos:
 - p: [26, 40]
   k: {t: '''', s: '"'}
   l: [QWERTY]
-- p: [0, 13]
+- p: [33, 43]
   k: Fn
   l: [QWERTY]
 - p: [1, 14]
