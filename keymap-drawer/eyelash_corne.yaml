@@ -42,7 +42,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - Fn
+  - fn
   - $$mdi:apple-keyboard-option$$
   - LGUI
   - {t: '$$mdi:keyboard-space$$', h: NUMBER}
@@ -98,8 +98,8 @@ layers:
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  Fn:
-  - '&studio_unlock'
+  fn:
+  - {t: '$$mdi:backup-restore$$', type: bootloader}
   - F1
   - F2
   - F3
@@ -111,8 +111,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
+  - $$mdi:progress-download$$
   - F6
   - F7
   - F8
@@ -126,8 +126,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:progress-download$$
+  - '&studio_unlock'
   - F11
   - F12
   - F13
@@ -137,8 +137,8 @@ layers:
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:progress-download$$
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -199,82 +199,82 @@ layers:
 combos:
 - p: [1, 14]
   k: '!'
-  l: [QWERTY]
+  l: [QWERTY, NUMBER]
 - p: [2, 15]
   k: '@'
-  l: [QWERTY]
+  l: [QWERTY, NUMBER]
 - p: [3, 16]
   k: '#'
-  l: [QWERTY]
+  l: [QWERTY, NUMBER]
 - p: [4, 17]
   k: $
-  l: [QWERTY]
+  l: [QWERTY, NUMBER]
 - p: [5, 18]
   k: '%'
-  l: [QWERTY]
+  l: [QWERTY, NUMBER]
 - p: [14, 29]
   k: ^
-  l: [QWERTY]
+  l: [QWERTY, NUMBER]
 - p: [15, 30]
   k: '&'
-  l: [QWERTY]
+  l: [QWERTY, NUMBER]
 - p: [16, 31]
   k: '*'
-  l: [QWERTY]
+  l: [QWERTY, NUMBER]
 - p: [17, 32]
   k: (
-  l: [QWERTY]
+  l: [QWERTY, NUMBER]
 - p: [18, 33]
   k: )
-  l: [QWERTY]
+  l: [QWERTY, NUMBER]
 - p: [7, 22]
   k: {t: '$$mdi:minus-circle-outline$$', type: none}
-  l: [QWERTY]
+  l: [QWERTY, NUMBER]
 - p: [8, 23]
   k: {t: '-', s: _}
-  l: [QWERTY]
+  l: [QWERTY, NUMBER]
 - p: [9, 24]
   k: {t: '=', s: +}
-  l: [QWERTY]
+  l: [QWERTY, NUMBER]
 - p: [10, 25]
   k: {t: /, s: '?'}
-  l: [QWERTY]
+  l: [QWERTY, NUMBER]
 - p: [11, 26]
   k: {t: '$$mdi:minus-circle-outline$$', type: none}
-  l: [QWERTY]
+  l: [QWERTY, NUMBER]
 - p: [22, 36]
   k: {t: '$$mdi:minus-circle-outline$$', type: none}
-  l: [QWERTY]
+  l: [QWERTY, NUMBER]
 - p: [23, 37]
   k: {t: '[', s: '{'}
-  l: [QWERTY]
+  l: [QWERTY, NUMBER]
 - p: [24, 38]
   k: {t: ']', s: '}'}
-  l: [QWERTY]
+  l: [QWERTY, NUMBER]
 - p: [25, 39]
   k: {t: \, s: '|'}
-  l: [QWERTY]
+  l: [QWERTY, NUMBER]
 - p: [26, 40]
   k: {t: '''', s: '"'}
-  l: [QWERTY]
+  l: [QWERTY, NUMBER]
 - p: [33, 43]
-  k: Fn
+  k: fn
   l: [QWERTY]
 - p: [1, 14]
   k: {h: '1', s: '$$mdi:bluetooth-connect$$'}
-  l: [Fn]
+  l: [fn]
 - p: [2, 15]
   k: {h: '2', s: '$$mdi:bluetooth-connect$$'}
-  l: [Fn]
+  l: [fn]
 - p: [3, 16]
   k: {h: '3', s: '$$mdi:bluetooth-connect$$'}
-  l: [Fn]
+  l: [fn]
 - p: [4, 17]
   k: {h: '4', s: '$$mdi:bluetooth-connect$$'}
-  l: [Fn]
+  l: [fn]
 - p: [5, 18]
   k: $$mdi:bluetooth-off$$
-  l: [Fn]
+  l: [fn]
 - p: [13, 28]
   k: $$mdi:apple-keyboard-control$$
   l: [QWERTY]
