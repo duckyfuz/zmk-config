@@ -55,121 +55,121 @@
         com1 {
             bindings = <&kp EXCLAMATION>;
             key-positions = <1 14>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         com2 {
             bindings = <&kp AT_SIGN>;
             key-positions = <2 15>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         com3 {
             bindings = <&kp HASH>;
             key-positions = <3 16>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         com4 {
             bindings = <&kp DOLLAR>;
             key-positions = <4 17>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         com5 {
             bindings = <&kp PERCENT>;
             key-positions = <5 18>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         com6 {
             bindings = <&kp CARET>;
             key-positions = <14 29>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         com7 {
             bindings = <&kp AMPERSAND>;
             key-positions = <15 30>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         com8 {
             bindings = <&kp ASTERISK>;
             key-positions = <16 31>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         com9 {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <17 32>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         com0 {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <18 33>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         rcom1 {
             bindings = <&none>;
             key-positions = <7 22>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         rcom2 {
             bindings = <&kp MINUS>;
             key-positions = <8 23>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         rcom3 {
             bindings = <&kp EQUAL>;
             key-positions = <9 24>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         rcom4 {
             bindings = <&kp SLASH>;
             key-positions = <10 25>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         rcom5 {
             bindings = <&none>;
             key-positions = <11 26>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         rcom6 {
             bindings = <&none>;
             key-positions = <22 36>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         rcom7 {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <23 37>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         rcom8 {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <24 38>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         rcom9 {
             bindings = <&kp BACKSLASH>;
             key-positions = <25 39>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         rcom0 {
             bindings = <&kp SQT>;
             key-positions = <26 40>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         tmp-left-fn-layer {
@@ -243,11 +243,11 @@
         };
 
         fn_layer {
-            display-name = "Fn";
+            display-name = "fn";
             bindings = <
-&studio_unlock  &kp F1   &kp F2   &kp F3   &kp F4   &kp F5                                 &mmv MOVE_UP                     &trans  &trans  &trans       &trans      &trans  &trans
-&sys_reset      &kp F6   &kp F7   &kp F8   &kp F9   &kp F10                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans  &trans  &trans       &trans      &trans  &trans
-&bootloader     &kp F11  &kp F12  &kp F13  &kp F14  &trans   &kp C_MUTE                    &mmv MOVE_DOWN                   &trans  &trans  &bootloader  &sys_reset  &trans  &trans
+&sys_reset      &kp F1   &kp F2   &kp F3   &kp F4   &kp F5                                 &mmv MOVE_UP                     &trans  &trans  &trans  &trans  &trans  &sys_reset
+&bootloader     &kp F6   &kp F7   &kp F8   &kp F9   &kp F10                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans  &trans  &trans  &trans  &trans  &bootloader
+&studio_unlock  &kp F11  &kp F12  &kp F13  &kp F14  &trans   &kp C_MUTE                    &mmv MOVE_DOWN                   &trans  &trans  &trans  &trans  &trans  &trans
                                   &trans   &trans   &trans                                                                  &trans  &trans  &trans
             >;
 
