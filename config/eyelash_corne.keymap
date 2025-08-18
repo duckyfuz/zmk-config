@@ -213,6 +213,11 @@
             key-positions = <13 28>;
             layers = <0>;
         };
+
+        rst-layer-l {
+            bindings = <&mo 3>;
+            key-positions = <42 43 44>;
+        };
     };
 
     keymap {
@@ -260,6 +265,15 @@
 &none    &trans  &trans  &kp PAGE_DOWN  &trans  &trans            &trans  &trans  &trans  &kp LEFT  &kp DOWN   &kp UP  &kp RIGHT  &trans  &kp RSHFT
 &trans   &trans  &trans  &trans         &trans  &trans  &trans            &trans          &trans    &trans     &trans  &trans     &trans  &trans
                          &trans         &trans  &trans                                    &trans    &trans     &trans
+            >;
+        };
+
+        reset_layer {
+            bindings = <
+&studio_unlock  &trans  &trans  &trans       &trans  &trans                    &trans          &trans  &trans  &trans       &trans  &trans  &trans
+&trans          &trans  &trans  &trans       &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans
+&sys_reset      &trans  &trans  &bootloader  &trans  &trans  &trans            &trans          &trans  &trans  &bootloader  &trans  &trans  &sys_reset
+                                &none        &none   &none                                     &none   &none   &none
             >;
         };
     };
