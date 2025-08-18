@@ -245,9 +245,9 @@
         fn_layer {
             display-name = "fn";
             bindings = <
-&sys_reset      &kp F1   &kp F2   &kp F3   &kp F4   &kp F5                                 &mmv MOVE_UP                     &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp LC(UP_ARROW)  &kp LG(SPACE)      &trans  &sys_reset
-&bootloader     &kp F6   &kp F7   &kp F8   &kp F9   &kp F10                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp F16               &kp C_NEXT            &kp C_PLAY_PAUSE  &kp C_NEXT         &trans  &bootloader
-&studio_unlock  &kp F11  &kp F12  &kp F13  &kp F14  &none    &kp C_MUTE                    &mmv MOVE_DOWN                   &trans                &kp C_MUTE            &kp C_VOLUME_UP   &kp C_VOLUME_DOWN  &trans  &none
+&sys_reset      &kp F1   &kp F2   &kp F3   &kp F4   &kp F5                                 &mmv MOVE_UP                     &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp LC(UP_ARROW)  &kp LG(SPACE)    &trans  &sys_reset
+&bootloader     &kp F6   &kp F7   &kp F8   &kp F9   &kp F10                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp F16               &kp C_NEXT            &kp C_PLAY_PAUSE  &kp C_NEXT       &trans  &bootloader
+&studio_unlock  &kp F11  &kp F12  &kp F13  &kp F14  &none    &kp C_MUTE                    &mmv MOVE_DOWN                   &trans                &kp C_MUTE            &kp C_VOL_DN      &kp C_VOLUME_UP  &trans  &none
                                   &trans   &none    &trans                                                                  &trans                &trans                &trans
             >;
 
