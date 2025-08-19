@@ -227,12 +227,6 @@
             key-positions = <33 43>;
             layers = <0>;
         };
-
-        left-shift {
-            bindings = <&kp LEFT_SHIFT>;
-            key-positions = <28 13>;
-            layers = <0>;
-        };
     };
 
     keymap {
