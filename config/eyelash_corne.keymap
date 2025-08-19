@@ -244,8 +244,6 @@
 &shiftctrl  &kp Z  &kp X  &kp C         &kp V     &kp B      &trans              &kp DOWN              &kp N      &kp M  &kp COMMA       &kp DOT  &kp FSLH  &kp RIGHT_CONTROL
                           &kp LEFT_ALT  &kp LGUI  &kp SPACE                                            &kp SPACE  &mo 1  &kp LEFT_SHIFT
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         num_layer {
