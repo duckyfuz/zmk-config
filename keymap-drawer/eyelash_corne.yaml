@@ -29,7 +29,7 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
   - Z
   - X
   - C
@@ -42,12 +42,12 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - fn
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
   - LGUI
   - {t: '$$mdi:keyboard-space$$', h: NUMBER}
   - {t: '$$mdi:keyboard-space$$', h: NUMBER}
-  - RGUI
+  - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:backspace$$', type: backspace}
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -135,17 +135,17 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - $$mdi:volume-off$$
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   special:
   - $$mdi:keyboard-esc$$
@@ -306,9 +306,6 @@ combos:
 - p: [26, 40]
   k: {t: '''', s: '"'}
   l: [QWERTY, NUMBER]
-- p: [33, 43]
-  k: fn
-  l: [QWERTY]
 - p: [1, 14]
   k: {h: '1', s: '$$mdi:bluetooth-connect$$'}
   l: [fn]
@@ -324,12 +321,18 @@ combos:
 - p: [5, 18]
   k: $$mdi:bluetooth-off$$
   l: [fn]
-- p: [13, 28]
-  k: $$mdi:apple-keyboard-control$$
-  l: [QWERTY]
 - p: [42, 43, 44]
   k: reset
   l: [QWERTY]
 - p: [45, 46, 47]
   k: reset
+  l: [QWERTY]
+- p: [46, 36]
+  k: fn
+  l: [QWERTY]
+- p: [33, 43]
+  k: fn
+  l: [QWERTY]
+- p: [28, 13]
+  k: $$mdi:apple-keyboard-shift$$
   l: [QWERTY]
