@@ -658,10 +658,6 @@ rect.held, rect.combo.held {
 <a href="#fn">
 <text x="297" y="181" class="combo tap layer-activator">fn</text>
 </a></g>
-<g class="combo combopos-24">
-<rect rx="6" ry="6" x="14" y="120" width="28" height="26" class="combo"/>
-<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="19" y="124" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-shift"/>
-</g>
 </g>
 </g>
 <g transform="translate(40, 318)" class="layer-NUMBER">

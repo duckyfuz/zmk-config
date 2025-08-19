@@ -333,6 +333,3 @@ combos:
 - p: [33, 43]
   k: fn
   l: [QWERTY]
-- p: [28, 13]
-  k: $$mdi:apple-keyboard-shift$$
-  l: [QWERTY]
