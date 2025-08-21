@@ -333,3 +333,6 @@ combos:
 - p: [33, 43]
   k: fn
   l: [QWERTY]
+- p: [1, 2]
+  k: {t: '`', s: '~'}
+  l: [QWERTY, NUMBER]

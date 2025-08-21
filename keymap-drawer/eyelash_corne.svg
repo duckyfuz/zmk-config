@@ -658,6 +658,11 @@ rect.held, rect.combo.held {
 <a href="#fn">
 <text x="297" y="181" class="combo tap layer-activator">fn</text>
 </a></g>
+<g class="combo combopos-24">
+<rect rx="6" ry="6" x="98" y="29" width="28" height="26" class="combo"/>
+<text x="112" y="42" class="combo tap">`</text>
+<text x="112" y="31" class="combo shifted">~</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 318)" class="layer-NUMBER">
@@ -1003,6 +1008,11 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="882" y="120" width="28" height="26" class="combo"/>
 <text x="896" y="133" class="combo tap">&#x27;</text>
 <text x="896" y="122" class="combo shifted">&quot;</text>
+</g>
+<g class="combo combopos-20">
+<rect rx="6" ry="6" x="98" y="29" width="28" height="26" class="combo"/>
+<text x="112" y="42" class="combo tap">`</text>
+<text x="112" y="31" class="combo shifted">~</text>
 </g>
 </g>
 </g>
