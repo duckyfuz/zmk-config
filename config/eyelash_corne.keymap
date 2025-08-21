@@ -227,6 +227,12 @@
             key-positions = <33 43>;
             layers = <0>;
         };
+
+        tilde {
+            bindings = <&kp GRAVE>;
+            key-positions = <1 2>;
+            layers = <0 1>;
+        };
     };
 
     keymap {
