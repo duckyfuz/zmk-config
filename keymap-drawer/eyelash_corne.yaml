@@ -286,7 +286,7 @@ combos:
   k: {t: '=', s: +}
   l: [QWERTY, NUMBER]
 - p: [10, 25]
-  k: \
+  k: {t: \, s: '|'}
   l: [QWERTY, NUMBER]
 - p: [11, 26]
   k: {t: '$$mdi:minus-circle-outline$$', type: none}
