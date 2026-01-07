@@ -286,7 +286,7 @@ combos:
   k: {t: '=', s: +}
   l: [QWERTY, NUMBER]
 - p: [10, 25]
-  k: {t: /, s: '?'}
+  k: \
   l: [QWERTY, NUMBER]
 - p: [11, 26]
   k: {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -301,10 +301,10 @@ combos:
   k: {t: ']', s: '}'}
   l: [QWERTY, NUMBER]
 - p: [25, 39]
-  k: {t: \, s: '|'}
+  k: {t: '''', s: '"'}
   l: [QWERTY, NUMBER]
 - p: [26, 40]
-  k: {t: '''', s: '"'}
+  k: {t: '$$mdi:minus-circle-outline$$', type: none}
   l: [QWERTY, NUMBER]
 - p: [1, 14]
   k: {h: '1', s: '$$mdi:bluetooth-connect$$'}
