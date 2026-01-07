@@ -133,7 +133,7 @@
         };
 
         rcom4 {
-            bindings = <&kp SLASH>;
+            bindings = <&kp NON_US_BACKSLASH>;
             key-positions = <10 25>;
             layers = <0 1>;
         };
@@ -163,13 +163,13 @@
         };
 
         rcom9 {
-            bindings = <&kp BACKSLASH>;
+            bindings = <&kp SQT>;
             key-positions = <25 39>;
             layers = <0 1>;
         };
 
         rcom0 {
-            bindings = <&kp SQT>;
+            bindings = <&none>;
             key-positions = <26 40>;
             layers = <0 1>;
         };
