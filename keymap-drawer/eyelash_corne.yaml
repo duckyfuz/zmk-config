@@ -248,3 +248,13 @@ layers:
 combos:
 - p: [1, 15, 29]
   k: '&soft_off'
+- p: [14, 30]
+  k: {t: X, h: '$$mdi:apple-keyboard-command$$'}
+- p: [14, 31]
+  k: {t: C, h: '$$mdi:apple-keyboard-command$$'}
+- p: [14, 32]
+  k: {t: V, h: '$$mdi:apple-keyboard-command$$'}
+- p: [3, 2]
+  k: $$mdi:keyboard-esc$$
+- p: [4, 3]
+  k: $$mdi:keyboard-tab$$
