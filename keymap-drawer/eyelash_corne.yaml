@@ -239,13 +239,13 @@ layers:
   - RGB BRD
   - END
   - PG DN
-  - {type: held}
-  - {type: held}
-  - {type: held}
-  - {t: INS, type: held alternate}
-  - {t: '$$mdi:backspace-reverse-outline$$', type: held alternate}
-  - {type: held alternate}
-  '5':
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - INS
+  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  admin:
   - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -288,12 +288,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
+  - {type: held}
+  - {type: held}
+  - {type: held alternate}
+  - {type: held alternate}
+  - {type: held alternate}
 combos:
 - p: [14, 30]
   k: {t: X, h: '$$mdi:apple-keyboard-command$$'}
@@ -311,6 +311,6 @@ combos:
 - p: [10, 9]
   k: {t: '$$mdi:backspace$$', type: backspace}
 - p: [42, 42, 43, 44]
-  k: NUMBER
+  k: admin
 - p: [45, 46, 47]
-  k: NUMBER
+  k: admin
