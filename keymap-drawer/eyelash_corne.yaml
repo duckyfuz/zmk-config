@@ -295,14 +295,15 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [1, 15, 29]
-  k: '&soft_off'
 - p: [14, 30]
   k: {t: X, h: '$$mdi:apple-keyboard-command$$'}
+  l: [QWERTY]
 - p: [14, 31]
   k: {t: C, h: '$$mdi:apple-keyboard-command$$'}
+  l: [QWERTY]
 - p: [14, 32]
   k: {t: V, h: '$$mdi:apple-keyboard-command$$'}
+  l: [QWERTY]
 - p: [3, 2]
   k: $$mdi:keyboard-esc$$
 - p: [4, 3]

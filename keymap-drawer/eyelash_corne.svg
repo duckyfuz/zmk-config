@@ -546,48 +546,43 @@ rect.held, rect.combo.held {
 <use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="-9" y="-13" height="18" width="18.0" class="key none tap glyph mdi:minus-circle-outline"/>
 </g>
 <g class="combo combopos-0">
-<path d="M103,100 l-13,43" class="combo"/>
-<rect rx="6" ry="6" x="89" y="87" width="28" height="26" class="combo"/>
-<text x="103" y="100" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
-</g>
-<g class="combo combopos-1">
 <rect rx="6" ry="6" x="98" y="113" width="28" height="26" class="combo"/>
 <text x="112" y="126" class="combo tap">X</text>
 <use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="104" y="122" height="15" width="15.0" class="combo hold glyph mdi:apple-keyboard-command"/>
 </g>
-<g class="combo combopos-2">
+<g class="combo combopos-1">
 <path d="M140,122 l-38,-12" class="combo"/>
 <path d="M140,122 l38,12" class="combo"/>
 <rect rx="6" ry="6" x="126" y="109" width="28" height="26" class="combo"/>
 <text x="140" y="122" class="combo tap">C</text>
 <use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="132" y="118" height="15" width="15.0" class="combo hold glyph mdi:apple-keyboard-command"/>
 </g>
-<g class="combo combopos-3">
+<g class="combo combopos-2">
 <path d="M168,126 l-66,-16" class="combo"/>
 <path d="M168,126 l66,16" class="combo"/>
 <rect rx="6" ry="6" x="154" y="113" width="28" height="26" class="combo"/>
 <text x="168" y="126" class="combo tap">V</text>
 <use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="160" y="122" height="15" width="15.0" class="combo hold glyph mdi:apple-keyboard-command"/>
 </g>
-<g class="combo combopos-4">
+<g class="combo combopos-3">
 <rect rx="6" ry="6" x="154" y="18" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="159" y="22" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
 </g>
-<g class="combo combopos-5">
+<g class="combo combopos-4">
 <rect rx="6" ry="6" x="210" y="18" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="215" y="22" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
 </g>
-<g class="combo backspace combopos-6">
+<g class="combo backspace combopos-5">
 <rect rx="6" ry="6" x="798" y="18" width="28" height="26" class="combo backspace"/>
 <use href="#mdi:backspace" xlink:href="#mdi:backspace" x="803" y="22" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
 </g>
-<g class="combo combopos-7">
+<g class="combo combopos-6">
 <path d="M270,210 l59,12" class="combo"/>
 <rect rx="6" ry="6" x="256" y="197" width="28" height="26" class="combo"/>
 <a href="#NUMBER">
 <text x="270" y="210" class="combo tap layer-activator">NUMBER</text>
 </a></g>
-<g class="combo combopos-8">
+<g class="combo combopos-7">
 <path d="M694,212 l-44,9" class="combo"/>
 <path d="M694,212 l43,-7" class="combo"/>
 <rect rx="6" ry="6" x="680" y="199" width="28" height="26" class="combo"/>
@@ -850,48 +845,24 @@ rect.held, rect.combo.held {
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
 <g class="combo combopos-0">
-<path d="M103,100 l-13,43" class="combo"/>
-<rect rx="6" ry="6" x="89" y="87" width="28" height="26" class="combo"/>
-<text x="103" y="100" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
-</g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="98" y="113" width="28" height="26" class="combo"/>
-<text x="112" y="126" class="combo tap">X</text>
-<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="104" y="122" height="15" width="15.0" class="combo hold glyph mdi:apple-keyboard-command"/>
-</g>
-<g class="combo combopos-2">
-<path d="M140,122 l-38,-12" class="combo"/>
-<path d="M140,122 l38,12" class="combo"/>
-<rect rx="6" ry="6" x="126" y="109" width="28" height="26" class="combo"/>
-<text x="140" y="122" class="combo tap">C</text>
-<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="132" y="118" height="15" width="15.0" class="combo hold glyph mdi:apple-keyboard-command"/>
-</g>
-<g class="combo combopos-3">
-<path d="M168,126 l-66,-16" class="combo"/>
-<path d="M168,126 l66,16" class="combo"/>
-<rect rx="6" ry="6" x="154" y="113" width="28" height="26" class="combo"/>
-<text x="168" y="126" class="combo tap">V</text>
-<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="160" y="122" height="15" width="15.0" class="combo hold glyph mdi:apple-keyboard-command"/>
-</g>
-<g class="combo combopos-4">
 <rect rx="6" ry="6" x="154" y="18" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="159" y="22" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
 </g>
-<g class="combo combopos-5">
+<g class="combo combopos-1">
 <rect rx="6" ry="6" x="210" y="18" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="215" y="22" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
 </g>
-<g class="combo backspace combopos-6">
+<g class="combo backspace combopos-2">
 <rect rx="6" ry="6" x="798" y="18" width="28" height="26" class="combo backspace"/>
 <use href="#mdi:backspace" xlink:href="#mdi:backspace" x="803" y="22" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
 </g>
-<g class="combo combopos-7">
+<g class="combo combopos-3">
 <path d="M270,210 l59,12" class="combo"/>
 <rect rx="6" ry="6" x="256" y="197" width="28" height="26" class="combo"/>
 <a href="#NUMBER">
 <text x="270" y="210" class="combo tap layer-activator">NUMBER</text>
 </a></g>
-<g class="combo combopos-8">
+<g class="combo combopos-4">
 <path d="M694,212 l-44,9" class="combo"/>
 <path d="M694,212 l43,-7" class="combo"/>
 <rect rx="6" ry="6" x="680" y="199" width="28" height="26" class="combo"/>
@@ -1147,48 +1118,24 @@ rect.held, rect.combo.held {
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
 <g class="combo combopos-0">
-<path d="M103,100 l-13,43" class="combo"/>
-<rect rx="6" ry="6" x="89" y="87" width="28" height="26" class="combo"/>
-<text x="103" y="100" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
-</g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="98" y="113" width="28" height="26" class="combo"/>
-<text x="112" y="126" class="combo tap">X</text>
-<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="104" y="122" height="15" width="15.0" class="combo hold glyph mdi:apple-keyboard-command"/>
-</g>
-<g class="combo combopos-2">
-<path d="M140,122 l-38,-12" class="combo"/>
-<path d="M140,122 l38,12" class="combo"/>
-<rect rx="6" ry="6" x="126" y="109" width="28" height="26" class="combo"/>
-<text x="140" y="122" class="combo tap">C</text>
-<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="132" y="118" height="15" width="15.0" class="combo hold glyph mdi:apple-keyboard-command"/>
-</g>
-<g class="combo combopos-3">
-<path d="M168,126 l-66,-16" class="combo"/>
-<path d="M168,126 l66,16" class="combo"/>
-<rect rx="6" ry="6" x="154" y="113" width="28" height="26" class="combo"/>
-<text x="168" y="126" class="combo tap">V</text>
-<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="160" y="122" height="15" width="15.0" class="combo hold glyph mdi:apple-keyboard-command"/>
-</g>
-<g class="combo combopos-4">
 <rect rx="6" ry="6" x="154" y="18" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="159" y="22" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
 </g>
-<g class="combo combopos-5">
+<g class="combo combopos-1">
 <rect rx="6" ry="6" x="210" y="18" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="215" y="22" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
 </g>
-<g class="combo backspace combopos-6">
+<g class="combo backspace combopos-2">
 <rect rx="6" ry="6" x="798" y="18" width="28" height="26" class="combo backspace"/>
 <use href="#mdi:backspace" xlink:href="#mdi:backspace" x="803" y="22" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
 </g>
-<g class="combo combopos-7">
+<g class="combo combopos-3">
 <path d="M270,210 l59,12" class="combo"/>
 <rect rx="6" ry="6" x="256" y="197" width="28" height="26" class="combo"/>
 <a href="#NUMBER">
 <text x="270" y="210" class="combo tap layer-activator">NUMBER</text>
 </a></g>
-<g class="combo combopos-8">
+<g class="combo combopos-4">
 <path d="M694,212 l-44,9" class="combo"/>
 <path d="M694,212 l43,-7" class="combo"/>
 <rect rx="6" ry="6" x="680" y="199" width="28" height="26" class="combo"/>
@@ -1452,48 +1399,24 @@ rect.held, rect.combo.held {
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
 <g class="combo combopos-0">
-<path d="M103,100 l-13,43" class="combo"/>
-<rect rx="6" ry="6" x="89" y="87" width="28" height="26" class="combo"/>
-<text x="103" y="100" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
-</g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="98" y="113" width="28" height="26" class="combo"/>
-<text x="112" y="126" class="combo tap">X</text>
-<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="104" y="122" height="15" width="15.0" class="combo hold glyph mdi:apple-keyboard-command"/>
-</g>
-<g class="combo combopos-2">
-<path d="M140,122 l-38,-12" class="combo"/>
-<path d="M140,122 l38,12" class="combo"/>
-<rect rx="6" ry="6" x="126" y="109" width="28" height="26" class="combo"/>
-<text x="140" y="122" class="combo tap">C</text>
-<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="132" y="118" height="15" width="15.0" class="combo hold glyph mdi:apple-keyboard-command"/>
-</g>
-<g class="combo combopos-3">
-<path d="M168,126 l-66,-16" class="combo"/>
-<path d="M168,126 l66,16" class="combo"/>
-<rect rx="6" ry="6" x="154" y="113" width="28" height="26" class="combo"/>
-<text x="168" y="126" class="combo tap">V</text>
-<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="160" y="122" height="15" width="15.0" class="combo hold glyph mdi:apple-keyboard-command"/>
-</g>
-<g class="combo combopos-4">
 <rect rx="6" ry="6" x="154" y="18" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="159" y="22" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
 </g>
-<g class="combo combopos-5">
+<g class="combo combopos-1">
 <rect rx="6" ry="6" x="210" y="18" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="215" y="22" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
 </g>
-<g class="combo backspace combopos-6">
+<g class="combo backspace combopos-2">
 <rect rx="6" ry="6" x="798" y="18" width="28" height="26" class="combo backspace"/>
 <use href="#mdi:backspace" xlink:href="#mdi:backspace" x="803" y="22" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
 </g>
-<g class="combo combopos-7">
+<g class="combo combopos-3">
 <path d="M270,210 l59,12" class="combo"/>
 <rect rx="6" ry="6" x="256" y="197" width="28" height="26" class="combo"/>
 <a href="#NUMBER">
 <text x="270" y="210" class="combo tap layer-activator">NUMBER</text>
 </a></g>
-<g class="combo combopos-8">
+<g class="combo combopos-4">
 <path d="M694,212 l-44,9" class="combo"/>
 <path d="M694,212 l43,-7" class="combo"/>
 <rect rx="6" ry="6" x="680" y="199" width="28" height="26" class="combo"/>
@@ -1781,48 +1704,24 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key held alternate"/>
 </g>
 <g class="combo combopos-0">
-<path d="M103,100 l-13,43" class="combo"/>
-<rect rx="6" ry="6" x="89" y="87" width="28" height="26" class="combo"/>
-<text x="103" y="100" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
-</g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="98" y="113" width="28" height="26" class="combo"/>
-<text x="112" y="126" class="combo tap">X</text>
-<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="104" y="122" height="15" width="15.0" class="combo hold glyph mdi:apple-keyboard-command"/>
-</g>
-<g class="combo combopos-2">
-<path d="M140,122 l-38,-12" class="combo"/>
-<path d="M140,122 l38,12" class="combo"/>
-<rect rx="6" ry="6" x="126" y="109" width="28" height="26" class="combo"/>
-<text x="140" y="122" class="combo tap">C</text>
-<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="132" y="118" height="15" width="15.0" class="combo hold glyph mdi:apple-keyboard-command"/>
-</g>
-<g class="combo combopos-3">
-<path d="M168,126 l-66,-16" class="combo"/>
-<path d="M168,126 l66,16" class="combo"/>
-<rect rx="6" ry="6" x="154" y="113" width="28" height="26" class="combo"/>
-<text x="168" y="126" class="combo tap">V</text>
-<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="160" y="122" height="15" width="15.0" class="combo hold glyph mdi:apple-keyboard-command"/>
-</g>
-<g class="combo combopos-4">
 <rect rx="6" ry="6" x="154" y="18" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="159" y="22" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
 </g>
-<g class="combo combopos-5">
+<g class="combo combopos-1">
 <rect rx="6" ry="6" x="210" y="18" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="215" y="22" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
 </g>
-<g class="combo backspace combopos-6">
+<g class="combo backspace combopos-2">
 <rect rx="6" ry="6" x="798" y="18" width="28" height="26" class="combo backspace"/>
 <use href="#mdi:backspace" xlink:href="#mdi:backspace" x="803" y="22" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
 </g>
-<g class="combo combopos-7">
+<g class="combo combopos-3">
 <path d="M270,210 l59,12" class="combo"/>
 <rect rx="6" ry="6" x="256" y="197" width="28" height="26" class="combo"/>
 <a href="#NUMBER">
 <text x="270" y="210" class="combo tap layer-activator">NUMBER</text>
 </a></g>
-<g class="combo combopos-8">
+<g class="combo combopos-4">
 <path d="M694,212 l-44,9" class="combo"/>
 <path d="M694,212 l43,-7" class="combo"/>
 <rect rx="6" ry="6" x="680" y="199" width="28" height="26" class="combo"/>
@@ -2080,48 +1979,24 @@ rect.held, rect.combo.held {
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
 <g class="combo combopos-0">
-<path d="M103,100 l-13,43" class="combo"/>
-<rect rx="6" ry="6" x="89" y="87" width="28" height="26" class="combo"/>
-<text x="103" y="100" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
-</g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="98" y="113" width="28" height="26" class="combo"/>
-<text x="112" y="126" class="combo tap">X</text>
-<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="104" y="122" height="15" width="15.0" class="combo hold glyph mdi:apple-keyboard-command"/>
-</g>
-<g class="combo combopos-2">
-<path d="M140,122 l-38,-12" class="combo"/>
-<path d="M140,122 l38,12" class="combo"/>
-<rect rx="6" ry="6" x="126" y="109" width="28" height="26" class="combo"/>
-<text x="140" y="122" class="combo tap">C</text>
-<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="132" y="118" height="15" width="15.0" class="combo hold glyph mdi:apple-keyboard-command"/>
-</g>
-<g class="combo combopos-3">
-<path d="M168,126 l-66,-16" class="combo"/>
-<path d="M168,126 l66,16" class="combo"/>
-<rect rx="6" ry="6" x="154" y="113" width="28" height="26" class="combo"/>
-<text x="168" y="126" class="combo tap">V</text>
-<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="160" y="122" height="15" width="15.0" class="combo hold glyph mdi:apple-keyboard-command"/>
-</g>
-<g class="combo combopos-4">
 <rect rx="6" ry="6" x="154" y="18" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="159" y="22" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
 </g>
-<g class="combo combopos-5">
+<g class="combo combopos-1">
 <rect rx="6" ry="6" x="210" y="18" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="215" y="22" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
 </g>
-<g class="combo backspace combopos-6">
+<g class="combo backspace combopos-2">
 <rect rx="6" ry="6" x="798" y="18" width="28" height="26" class="combo backspace"/>
 <use href="#mdi:backspace" xlink:href="#mdi:backspace" x="803" y="22" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
 </g>
-<g class="combo combopos-7">
+<g class="combo combopos-3">
 <path d="M270,210 l59,12" class="combo"/>
 <rect rx="6" ry="6" x="256" y="197" width="28" height="26" class="combo"/>
 <a href="#NUMBER">
 <text x="270" y="210" class="combo tap layer-activator">NUMBER</text>
 </a></g>
-<g class="combo combopos-8">
+<g class="combo combopos-4">
 <path d="M694,212 l-44,9" class="combo"/>
 <path d="M694,212 l43,-7" class="combo"/>
 <rect rx="6" ry="6" x="680" y="199" width="28" height="26" class="combo"/>
