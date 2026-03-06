@@ -304,12 +304,6 @@ combos:
 - p: [14, 32]
   k: {t: V, h: '$$mdi:apple-keyboard-command$$'}
   l: [QWERTY]
-- p: [3, 2]
-  k: $$mdi:keyboard-esc$$
-- p: [4, 3]
-  k: $$mdi:keyboard-tab$$
-- p: [10, 9]
-  k: {t: '$$mdi:backspace$$', type: backspace}
 - p: [42, 42, 43, 44]
   k: admin
 - p: [45, 46, 47]
