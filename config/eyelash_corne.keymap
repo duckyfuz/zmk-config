@@ -132,9 +132,9 @@
         symbol_layer {
             display-name = "symbol";
             bindings = <
-&kp TILDE  &kp EXCL     &kp AT_SIGN  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PLUS                             &mmv MOVE_UP                     &kp ASTERISK  &kp COLON      &kp DOUBLE_QUOTES  &none  &kp PIPE       &trans
-&kp GRAVE  &kp HASH     &kp DOLLAR   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp SLASH     &kp SEMICOLON  &kp SQT            &none  &kp BACKSLASH  &trans
-&trans     &kp PERCENT  &kp CARET    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EQUAL  &trans                    &mmv MOVE_DOWN                   &kp UNDER     &kp LESS_THAN  &kp GREATER_THAN   &none  &kp QUESTION   &trans
+&kp TILDE  &kp EXCL     &kp AT_SIGN  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PLUS                             &mmv MOVE_UP                     &kp ASTERISK  &kp COLON      &kp DOUBLE_QUOTES  &none             &kp PIPE       &trans
+&kp GRAVE  &kp HASH     &kp DOLLAR   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp SLASH     &kp SEMICOLON  &kp SQT            &none             &kp BACKSLASH  &trans
+&trans     &kp PERCENT  &kp CARET    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EQUAL  &trans                    &mmv MOVE_DOWN                   &kp UNDER     &none          &kp LESS_THAN      &kp GREATER_THAN  &kp QUESTION   &trans
                                      &trans                &trans                 &trans                                                                &trans        &trans         &trans
             >;
 
