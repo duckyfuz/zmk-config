@@ -43,8 +43,8 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - symbol
-  - symbol
   - navigation
+  - symbol
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - numpad
@@ -92,8 +92,8 @@ layers:
   - '>'
   - '?'
   - {type: held alternate}
-  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -141,8 +141,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
